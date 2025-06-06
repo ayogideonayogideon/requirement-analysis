@@ -58,9 +58,33 @@ Non-functional requirements define the system's quality attributes, such as perf
 
 #### **Examples for the Booking Management System**
 - **Performance** – The system should process bookings in under two seconds.
+
+## Acceptance Criteria
+
+Acceptance Criteria are predefined conditions that a feature must meet to be considered complete and acceptable by stakeholders. They help ensure that development aligns with business goals and user needs, serving as a benchmark for testing and validation.
+
+### **Importance of Acceptance Criteria in Requirement Analysis**
+- **Defines Scope Clearly** – Provides precise conditions for feature acceptance, reducing ambiguity.  
+- **Enhances Collaboration** – Ensures developers, testers, and stakeholders are aligned on expectations.  
+- **Improves Testing and Validation** – Serves as a checklist for verifying functionality and identifying defects early.  
+- **Prevents Scope Creep** – Helps maintain focus on essential features without unnecessary modifications.  
+
+### **Example: Acceptance Criteria for Checkout Feature in Booking Management System**
+A user should be able to complete the checkout process after selecting a property, ensuring secure payment and booking confirmation. The acceptance criteria may include:
+
+- Users must be able to review booking details before proceeding with payment.  
+- The system must support multiple payment methods, including credit/debit cards and PayPal.  
+- Payment transactions must be securely processed using encryption protocols.  
+- Upon successful payment, users should receive a confirmation message and email with booking details.  
+- If payment fails, users should be notified and provided with options to retry or use an alternate method.  
+- The checkout process must be completed within **5 seconds** for optimal user experience.  
+
+Clearly defining acceptance criteria helps teams deliver features that meet expectations and function seamlessly.
+
 - **Security** – User data must be encrypted, and secure login mechanisms should be implemented.
 - **Scalability** – The system should support thousands of simultaneous users without performance degradation.
 - **Usability** – The interface should be intuitive and accessible to users with different levels of technical expertise.
 - **Reliability** – The system should maintain uptime of 99.9% to ensure continuous availability.
 
 Understanding and clearly defining both functional and non-functional requirements helps teams build a robust booking management system that meets business objectives while delivering an optimal user experience.
+
