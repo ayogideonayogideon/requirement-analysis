@@ -38,3 +38,29 @@ Requirement Analysis is an essential phase in the Software Development Life Cycl
   - Involves stakeholder review, prototype testing, and formal approval processes.
 
 By following these activities, teams can build software with well-defined requirements, reducing the risk of costly errors during development.
+
+## Types of Requirements
+
+In software development, requirements are categorized into two main types: **Functional Requirements** and **Non-functional Requirements**. Both are essential in defining how a system should operate to meet user needs and business goals.
+
+### 1. Functional Requirements
+Functional requirements define the core features and operations of the system. They describe what the system must do to meet the needs of users and stakeholders.
+
+#### **Examples for the Booking Management System**
+- **User Registration** – The system must allow new users to sign up with an email and password.
+- **Property Search** – Users must be able to search properties by location, price range, and availability.
+- **Booking Confirmation** – After selecting a property, users should receive a booking confirmation via email.
+- **Payment Processing** – The system must support secure online transactions using various payment methods.
+- **Cancellation & Refund** – Users should have the ability to cancel bookings and request refunds based on predefined policies.
+
+### 2. Non-functional Requirements
+Non-functional requirements define the system's quality attributes, such as performance, security, usability, and scalability. They ensure the system operates efficiently and meets user expectations beyond just core functionalities.
+
+#### **Examples for the Booking Management System**
+- **Performance** – The system should process bookings in under two seconds.
+- **Security** – User data must be encrypted, and secure login mechanisms should be implemented.
+- **Scalability** – The system should support thousands of simultaneous users without performance degradation.
+- **Usability** – The interface should be intuitive and accessible to users with different levels of technical expertise.
+- **Reliability** – The system should maintain uptime of 99.9% to ensure continuous availability.
+
+Understanding and clearly defining both functional and non-functional requirements helps teams build a robust booking management system that meets business objectives while delivering an optimal user experience.
